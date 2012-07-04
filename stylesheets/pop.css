@@ -1,0 +1,66 @@
+.pop {
+  background-color: #333;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  display: none;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+  z-index: 1;
+  padding: 10px;
+  position: absolute;
+}
+.pop-black {
+  background-color: #333;
+  color: #fff;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 3px 3px rgba(0,0,0,.5);
+  -o-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -ms-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+.pop-white {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  color: #333;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.2);
+  -webkit-box-shadow: 1px 3px 3px rgba(0,0,0,.2);
+  -o-box-shadow: 1px 2px 3px rgba(0,0,0,.2);
+  -ms-box-shadow: 1px 2px 3px rgba(0,0,0,.2);
+}
+.pop .arrow {
+  background:url(../images/pop_arrow.png) no-repeat;
+  position:absolute;
+}
+.pop .arrow-top {
+  height: 9px;
+  left: 2px;
+  top: -9px;
+  width: 10px;
+}
+.pop .arrow-right {
+  height: 10px;
+  right: -9px;
+  top: 2px;
+  width: 9px;
+}
+.pop .arrow-bottom {
+  bottom: -9px;
+  height: 9px;
+  left: 2px;
+  width: 10px;
+}
+.pop .arrow-left {
+  height: 10px;
+  left: -9px;
+  top: 2px;
+  width: 9px;
+}
+.pop-black .arrow-right {background-position: 0 -10px;}
+.pop-black .arrow-bottom {background-position: 0 -20px;}
+.pop-black .arrow-left {background-position: 0 -30px;}
+.pop-white .arrow-top {background-position: 0 -40px;}
+.pop-white .arrow-right {background-position: 0 -50px;}
+.pop-white .arrow-bottom {background-position: 0 -60px;}
+.pop-white .arrow-left {background-position: 0 -70px;}
+
